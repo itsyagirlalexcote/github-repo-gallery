@@ -80,7 +80,7 @@ h1 {
 h3 {
     width: 100%;
     text-align: center;
-    color: #f86d58;
+    color: rgb(238, 250, 195);
 }
 
 ul {
@@ -136,7 +136,8 @@ ul {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #c5cb97;
-    padding-bottom: 19px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .filter-repos {
@@ -157,7 +158,7 @@ section.repo-data {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #fff;
+    background-color:  #527656;
     margin-top: 0;
     padding: 2em;
 }
@@ -173,7 +174,7 @@ section.repo-data {
 .repo-list li {
     width: 90%;
     margin: 1em 0;
-    border: 1px solid #f86d58;
+    border: 1px solid #b3da36;
     padding: 0.5em;
 }
 
@@ -234,6 +235,7 @@ section.repo-data {
     .user-info div {
         width: 45%;
         text-align: left;
+        padding-top: 20px;
     }
 
     .repo-list {
